@@ -1,0 +1,6 @@
+fuser -k 8080/tcp
+
+
+netstat -anp tcp | grep 3000
+
+lsof -i:8080

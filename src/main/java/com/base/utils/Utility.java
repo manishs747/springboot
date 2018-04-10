@@ -505,9 +505,7 @@ public class Utility {
         return countMap;
     }
 
-    public static <T> List<String> convertListToStringList(List<T> l) {
-        return l.stream().map(T::toString).collect(Collectors.toList());
-    }
+
 
 
     public static String findCurrentDay() {
